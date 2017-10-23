@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\exponential">
+      <UniqueIdentifier>{9a52fb11-2e09-4087-bc7e-8090dbe8aa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\power">
+      <UniqueIdentifier>{07b34dba-757e-4e1a-bf80-bbaf74b8c0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\special">
+      <UniqueIdentifier>{aebaae61-ff3d-4201-bce7-16ed790a8941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\trigonometric">
+      <UniqueIdentifier>{2cd9546b-9395-4426-b8d4-5c3e81de041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\polynomial">
+      <UniqueIdentifier>{41184fe3-ae94-4439-b067-b1eb791b681c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hyperbolic">
+      <UniqueIdentifier>{358f7384-3a73-4d54-a3d3-2b90bfaa407e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="erf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="polynomial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="operator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trigonometric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hyperbolic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exponential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logarithmic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="special.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exp.h">
+      <Filter>Header Files\exponential</Filter>
+    </ClInclude>
+    <ClInclude Include="sqrt.h">
+      <Filter>Header Files\power</Filter>
+    </ClInclude>
+    <ClInclude Include="norm.h">
+      <Filter>Header Files\power</Filter>
+    </ClInclude>
+    <ClInclude Include="bessel.h">
+      <Filter>Header Files\special</Filter>
+    </ClInclude>
+    <ClInclude Include="gamma.h">
+      <Filter>Header Files\special</Filter>
+    </ClInclude>
+    <ClInclude Include="normal.h">
+      <Filter>Header Files\special</Filter>
+    </ClInclude>
+    <ClInclude Include="horner.h">
+      <Filter>Header Files\polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="continuant.h">
+      <Filter>Header Files\polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="continued_fraction.h">
+      <Filter>Header Files\polynomial</Filter>
+    </ClInclude>
+    <ClInclude Include="chebyshev.h">
+      <Filter>Header Files\polynomial</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tdual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
